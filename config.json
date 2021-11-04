@@ -1,6 +1,26 @@
 {
     "student": [
+        {
+            "fullName": "Nathan Verghis",
+            "email": "nbverghis@gmail.com",
+            "mobile": "6478244124"
+        },
+        {
+            "fullName": "Holly Roos",
+            "email": "hollyroos38@gmail.com",
+            "mobile": "6475028060"
+        },
+        {
+            "fullName": "Eliza Mathai",
+            "email": "elizamathai18@gmail.com",
+            "mobile": "9059654383"
+        }
     ],
     "guest": [
+        {
+            "fullName": "Deeksha Kapur",
+            "email": "deekshamalika@gmail.com",
+            "mobile": "4168417954"
+        }
     ]
 }
