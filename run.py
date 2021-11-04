@@ -72,7 +72,8 @@ class Bot:
         self.next()
 
 if __name__ == "__main__":
-    with open("config.json", "r") as f:
+    print("Automating COVID screens for {}".format(datetime.strftime(datetime.now(), "%d %B, %Y")))
+    with open("/home/pi/Desktop/Projects/LetMeOnCampus/config.json", "r") as f:
         config = json.load(f)
     for t in config.keys():
         for person in config[t]:
@@ -80,3 +81,5 @@ if __name__ == "__main__":
             bot.start()
             bot.fill()
             print("Completed covid test form for {} on {}".format(person["fullName"], datetime.strftime(datetime.now(), "%B %d, %Y %H:%M:%S")))
+            bot.bot.quit()
+    print("END OF DAY\n\n")
